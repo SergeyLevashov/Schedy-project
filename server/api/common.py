@@ -22,9 +22,9 @@ async def donate(request: Request, auth_data: WebAppInitData = Depends(auth)) ->
     data = await request.json()
     invoice_link = await bot(
         CreateInvoiceLink(
-            title="Donate",
+            title="schedy",
             description="Make my life better!",
-            payload="donate",
+            payload="",
             currency="XTR",
             prices=[LabeledPrice(label="XTR", amount=data["amount"])]
         )

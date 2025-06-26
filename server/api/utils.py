@@ -2,7 +2,7 @@ from fastapi import Request, HTTPException
 import logging
 from functools import lru_cache
 from aiogram.utils.web_app import WebAppInitData, safe_parse_webapp_init_data
-from db.models import User
+from db.models.user import User
 from config_reader import config
 
 
