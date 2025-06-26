@@ -1,0 +1,23 @@
+# Core dependencies
+pandas>=1.5.0
+numpy>=1.21.0
+scikit-learn>=1.1.0
+spacy>=3.4.0
+pymorphy3>=1.2.0
+dateparser>=1.1.0
+rapidfuzz>=2.13.0
+blis<=0.7.11
+
+# Google API dependencies
+google-auth>=2.15.0
+google-auth-oauthlib>=0.8.0
+google-auth-httplib2>=0.1.0
+google-api-python-client>=2.70.0
+
+# Additional NLP dependencies
+transformers>=4.25.0
+
+# Development dependencies
+pytest>=7.0.0
+black>=22.0.0
+flake8>=5.0.0
